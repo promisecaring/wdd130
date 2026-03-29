@@ -69,15 +69,26 @@ article {
 
 nav {
     display: flex;
-    gap: 1rem;
-    justify-content: flex-end;
+    gap: 2px;
+    justify-content:flex-end;
+    margin: 0;
+    padding: 0;
+    
 }
 
 nav a {
     text-decoration: none;
     color: white;
     font-weight: bold;
+    display: block;
+    border:0.5px solid #333;
+        background-color: gray; /* Hover effect */
+
+    
+    width: fit-content;
+
 }
+
 
 
 .hero {
@@ -175,3 +186,76 @@ footer {
     width: 32px;
     height: auto;
 }
+.gallery2 {
+        width: 100%;
+    height: auto;
+    max-width: 200px;
+    border-radius: 8px;
+    display: flex;              /* Use flex to center content */
+    justify-content: center;    /* Horizontal center */
+    align-items: center;        /* Vertical center */
+    margin: 20px 0;             /* Optional spacing from top/bottom */
+
+}
+.gallery2 img {
+        
+float:right;
+  max-width:100%;        /* Adjust size of image */
+  height: auto;
+  margin: 20px 0;        /* Space above and below */
+  border-radius: 8px;    /* Optional styling */
+    align-items: center;        /* Vertical center */
+}
+
+
+.history {
+  max-width: 800px;      /* Limit width of the section */
+  margin: 0 auto;        /* Center the whole section on page */
+  padding: 20px;
+}
+
+.history-content {
+  text-align: center;    /* Center all inline content inside */
+}
+
+
+.gallery, .trip-cards, .offerings-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 16px;
+    margin: 16px;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery img, .trip-cards img, .offerings-grid img {
+    width: 100%;
+    height: auto;
+    max-width: 200px;
+    border-radius: 8px;
+}
+
+/* Employee Image */
+.employee-gallery img {
+    width:150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #0077cc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Captions Under Images */
+.employee-gallery figcaption {
+    margin-top: 0.5rem;
+    font-weight: 500;
+    color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+}
+
+    
+    
