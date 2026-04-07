@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/rafting.css">
+  <title>Contact Us  |  Rafting Company</title>
+  <meta name="description" content="The Contact Us Page of the Warer Rafting Site">
+  <meta name="author" content="Promise Oghene">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin >
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+    </head>
+
+<body>
+  <header>
+    <img src="images/logo.jpg" alt="Rafting Company Logo" width="100">
+    <nav>
+      <a href="index.html">Home </a>
+      <a href="about.html">About 
+        Us</a>
+      <a href="trips.html">Trips </a>
+      <a href="contact.html">Contact Us</a>   
+    </nav>
+  </header>
+  <main>
+    <h1>Contact Us</h1>
+    
+    <!-- Contact Info section -->
+     <section class="Contact-info">
+    <p>Rafting Company</p>
+    <p>Phone: +2348144463646</p>
+    <p>Email:poghene@byupathway.edu </p>
+</section>
+
+<!-- Google Map Embed -->
+ <div class="map">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15853.438512738656!2d3.3497696892714512!3d6.602152521502264!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sng!4v1753801961752!5m2!1sen!2sng" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+
+<!-- Employee Section -->
+ <div class="employee-gallery">
+  <figure>
+    <img src="images/rafting employee 1.webp" alt= "Happy Employee1"/>
+  <figcaption> Mary Johnson and team - Tour guide</figcaption>
+ </figure>
+
+ <figure>
+  <img src="images/employee 1.jpg"  alt="Happy Employee2"/>
+  <figcaption> Johnson Bryan - Safety Coordination</figcaption>
+ </figure>
+
+ <figure>
+  <img src="images/employee 2.jpg" alt="Happy Employee3"/>
+  <figcaption>Kelly Stone -  Customer Support</figcaption>
+ </figure>
+
+ </div>
+
+ <!-- Contact Form section -->
+  <section class="contact-form">
+        <h2>Send Us a Message</h2>
+        <form action="contact.html" method="post">
+        
+    <div>
+        <label for="username"> username:</label>
+          <input type="text" id="username" name="username" required/>
+     
+
+      
+          <label for="email">Email:</label>
+          <input type="text" id="email" name="email" required/>
+    </div>
+
+
+     <div>
+        <label>What is the purpose of your message?</label>
+        <input type="radio" name="purpose" value="general Inquiry"  id="q1a"/>
+        <label for="q1a"> General Inquiry</label>
+        
+        <input type="radio" name="purpose" value="reservation question" id="q1b"  />
+        <label for="q1b"> Reservation Question</label>
+        
+        <input type="radio" name="purpose" value="website suggestion" id="q1c" />
+        <label for="q1c"> Website Suggestion</label>
+      </div>
+
+        <div>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+        </div>
+
+
+        <div>
+        <label for="subscribe"> Please subscribe me to the monthly newsletter</label>
+        <input type="checkbox" id="subscribe" name="subscribe" />
+        </div>
+
+        <div>
+        <button type="submit">Send Message</button>
+        </div>
+      </form>
+</section>
+ 
+  </main>
+  <footer>
+    <p> &copy 2026 🥽  Rafting Company 🥽  Promise Oghene</p>
+    <nav class="socialmedia">
+        <a href="http://facebook.com" target="_blank" rel="https://www.facebook.com/share/1Aa192ytKm/?mibextid=wwXIfr">
+        <img src="images/facebook_icon.png" alt="facebook latest logo" />
+        </a>
+                <a href="http://whatsapp.com" target="_blank" rel="noopener">
+        <img src="images/whatsapp.png" alt="whatsapp latest logo" />
+        </a>
+                <a href="http://instagram.com" target="_blank" rel="noopener">
+        <img src="images/instagram.jpeg" alt=" X latest logo" />
+        </a>
+
+
+    </nav>
+
+  
+  </footer>
+</body>
+
+</html>
